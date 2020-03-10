@@ -1,0 +1,29 @@
+<h1>Create an Order</h1>
+<h2>Your order will be scheduled for pickup</h2>
+<a class="backButton" href="/orders/all">Back</a>
+<hr />
+
+<div class="formWrapper">
+    <form id="ordersCreate" action="/api/orders" method="POST">
+      <div class="formError"></div>
+      <div class="inputWrapper">
+        <div class="inputLabel">Delivery Phone</div>
+        <input type="text" name="deliveryPhone" placeholder="08090903454">
+      </div>
+      <div class="inputWrapper">
+        <div class="inputLabel">Delivery Address</div>
+        <input type="text" name="deliveryAddress" placeholder="No. 5b, acme road. Lagos">
+      </div>
+      <div class="inputWrapper">
+        <div class="inputLabel">Pick-up phone</div>
+        <input type="text" name="pickupPhone" placeholder="08090903454">
+      </div>
+      <div class="inputWrapper">
+        <div class="inputLabel">Pick-up Address</div>
+        <input type="text" name="pickupAddress" placeholder="No. 5b, acme road. Lagos">
+      </div>
+      <div class="inputWrapper ctaWrapper">
+        <button type="submit" class="cta blue">Create Order</button>
+      </div>
+    </form>
+</div>

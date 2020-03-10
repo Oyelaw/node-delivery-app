@@ -1,0 +1,13 @@
+{
+  "name": "delivery-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "okiki <okiki.oyelaw@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "mongodb": "3.5.4"
+  }
+}
