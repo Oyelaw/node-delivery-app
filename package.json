@@ -1,5 +1,6 @@
 {
   "name": "delivery-app",
+  "description": "A simple node js delivery app",
   "version": "1.0.0",
   "main": "index.js",
   "author": "okiki <okiki.oyelaw@gmail.com>",
