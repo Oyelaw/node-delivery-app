@@ -1,6 +1,6 @@
 # node-delivery-app
 A simple delivery app built using nodejs
-The aim of building this small app was to explore Node. js Core Modules and to have a better understanding of how they work. 
+The aim of building this small app was to explore Node. js Core Modules and to have a better understanding of how they work. All files are saved using the Fs module in a folder called .data
 ## Getting Started
 clone the repository
 ```bash
